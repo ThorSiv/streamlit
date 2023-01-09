@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    admin:
+      email: chongjie.zhong@zealcomm.cn
+      name: John Smith
+      password: $2b$12$xVF3MT0TB3CoqdSNZol6nutIFuCxkGc23HeW3F277K1aYHxCrnfr2
+    member:
+      email: chongjie.zhong@zealcomm.cn
+      name: Rebecca Briggs
+      password: $2b$12$ZddjvjReprbmI5EulYLRA.FdoplGcsowhHNjf9YRZCCMixef0tqlW
+preauthorized:
+  emails:
+  - chongjie.zhong@zealcomm.cn

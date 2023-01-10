@@ -5,13 +5,17 @@ cookie:
 credentials:
   usernames:
     admin:
-      email: chongjie.zhong@zealcomm.cn
-      name: John Smith
-      password: $2b$12$xVF3MT0TB3CoqdSNZol6nutIFuCxkGc23HeW3F277K1aYHxCrnfr2
+      email: test@test.comemail
+      name: admin
+      password: $2b$12$Nbypzd9dZaYsV0u9gvnQReOtBOJKUyGBVc5mK6oMsA.5IGFVResCe
     member:
       email: chongjie.zhong@zealcomm.cn
       name: Rebecca Briggs
       password: $2b$12$ZddjvjReprbmI5EulYLRA.FdoplGcsowhHNjf9YRZCCMixef0tqlW
+    someuser:
+      email: good@good.com
+      name: gooduser
+      password: $2b$12$Acx09sANmGhZgi1oyEO8MOnSWkpcOx1LyueJTPtNFld8LBXxtuYdS
 preauthorized:
   emails:
   - chongjie.zhong@zealcomm.cn

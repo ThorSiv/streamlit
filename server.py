@@ -1,6 +1,6 @@
 
 import streamlit as st
-import login,main
+import main,manage,credential
 from streamlit_authenticator import *
 #auth
 sidebar = st.sidebar.radio(
@@ -39,7 +39,7 @@ if sidebar == 'main':
         main.main()
 elif sidebar == "manage":
     if authentication_status:
-        st.write('nice mange')
+        manage.manage()
 elif sidebar == 'users':
     if authentication_status:
         tab1, tab2, tab3 = st.tabs(["addusers", "updateusers", "resetpassword"])
@@ -71,4 +71,4 @@ elif sidebar == 'users':
                 st.error(e)
 elif sidebar == 'credential':
     if authentication_status:
-        st.write('good credentials')
+        credential.credential()

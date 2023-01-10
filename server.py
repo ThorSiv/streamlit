@@ -4,13 +4,12 @@ import login,main
 #auth
 sidebar = st.sidebar.radio(
     "sidebar",
-    ("main", "manage", "users", "credential","registe_cluster")
+    ("main", "manage", "users", "credential")   
 )
 
 
 if sidebar == 'main':
     if login.check_login():
-        st.write("Yes , you login")
         main.main()
 elif sidebar == "manage":
     if not login.check_login():

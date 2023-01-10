@@ -15,7 +15,8 @@ def check_login():
     name, authentication_status, username = authenticator.login('Login', 'main')
 
     if authentication_status:
-        authenticator.logout('Logout', 'main')
+        authenticator.logout("logout","sidebar")
+
         # # st.write(f'Welcome *{name}*')
         # # st.title('Some content')
         # st.write("You have login")
